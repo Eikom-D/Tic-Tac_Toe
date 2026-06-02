@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac_Toe</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div id = intro>
+      <h1 id = "title">Tic-Tac-Toe</h1>
+      <p id = 'info'>tic-tac-toe is a simple game where two players (in this case, you and the computer) draw Xs and Os on a 3x3 grid, and the first player to get three of their sign in one row (vertically, horizontally, or diagonally) wins. Click/Tap on a place in the grid to start the game!</p>
+      </div>
+      <div id = 'game'>
+          <div id = 'grid'>
+          <button class = 'grid-space' id = 'grid-1'></button>
+          <button class = 'grid-space' id = 'grid-2'></button>
+          <button class = 'grid-space' id = 'grid-3'></button>
+          <button class = 'grid-space' id = 'grid-4'></button>
+          <button class = 'grid-space' id = 'grid-5'></button>
+          <button class = 'grid-space' id = 'grid-6'></button>
+          <button class = 'grid-space' id = 'grid-7'></button>
+          <button class = 'grid-space' id = 'grid-8'></button>
+          <button class = 'grid-space' id = 'grid-9'></button>
+          </div>
+          <div id = 'stats'>
+             
+              <h3>Score</h3>
+               <div id = 'scores'>
+              <p>Player: <span id = 'playerPointSpan'></span> </p>
+              <p>Draw: <span id = 'drawSpan'></span> </p>
+              <p>Computer: <span id = 'computerPointSpan'></span> </p>
+              </div>
+              <button id = 'resetBtn'>Reset Score</button>
+          </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
